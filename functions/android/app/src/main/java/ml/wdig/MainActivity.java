@@ -1,5 +1,7 @@
 package ml.wdig;
 
+import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
 
 import com.getcapacitor.BridgeActivity;
@@ -17,5 +19,9 @@ public class MainActivity extends BridgeActivity {
       // Additional plugins you've installed go here
       // Ex: add(TotallyAwesomePlugin.class);
     }});
+    // ATTENTION: This was auto-generated to handle app links.
+    Intent appLinkIntent = getIntent();
+    String appLinkAction = appLinkIntent.getAction();
+    Uri appLinkData = appLinkIntent.getData();
   }
 }

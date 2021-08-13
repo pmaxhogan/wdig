@@ -9,5 +9,6 @@
       "launchShowDuration": 0
     }
   },
-  "cordova": {}
+  "cordova": {},
+  "linuxAndroidStudioPath": "/home/max/bin/android-studio"
 }
